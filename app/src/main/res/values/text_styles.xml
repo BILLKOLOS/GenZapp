@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="GenZapp.Text.Zero" parent="">
+        <item name="android:textSize">0sp</item>
+    </style>
+
+    <!-- region Material3 Styles -->
+    <style name="GenZapp.Text.HeadlineLarge" parent="TextAppearance.Material3.HeadlineLarge">
+        <item name="android:lineSpacingExtra">8sp</item>
+    </style>
+
+    <style name="GenZapp.Text.HeadlineMedium" parent="TextAppearance.Material3.HeadlineMedium">
+        <item name="android:lineSpacingExtra">6sp</item>
+    </style>
+
+    <style name="GenZapp.Text.HeadlineSmall" parent="TextAppearance.Material3.HeadlineSmall">
+    </style>
+
+    <style name="GenZapp.Text.TitleLarge" parent="TextAppearance.Material3.TitleLarge">
+        <item name="android:lineSpacingExtra">6sp</item>
+    </style>
+
+    <style name="GenZapp.Text.TitleMedium" parent="TextAppearance.Material3.TitleMedium">
+        <item name="fontFamily">sans-serif</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+    </style>
+
+    <style name="GenZapp.Text.TitleSmall" parent="TextAppearance.Material3.TitleSmall">
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+    </style>
+
+    <style name="GenZapp.Text.BodyLarge" parent="TextAppearance.Material3.BodyLarge">
+        <item name="android:lineSpacingExtra">6sp</item>
+    </style>
+
+    <style name="GenZapp.Text.BodyMedium" parent="TextAppearance.Material3.BodyMedium">
+        <item name="android:lineSpacingExtra">6sp</item>
+    </style>
+
+    <style name="GenZapp.Text.BodySmall" parent="TextAppearance.Material3.BodySmall">
+        <item name="android:textSize">13sp</item>
+        <item name="android:lineSpacingExtra">3sp</item>
+    </style>
+
+    <style name="GenZapp.Text.MaterialCaption" parent="GenZapp.Text.BodySmall">
+        <item name="android:textSize">12sp</item>
+        <item name="android:lineSpacingExtra">4sp</item>
+    </style>
+
+    <style name="GenZapp.Text.LabelLarge" parent="TextAppearance.Material3.LabelLarge">
+        <item name="android:lineSpacingExtra">6sp</item>
+    </style>
+
+    <style name="GenZapp.Text.LabelMedium" parent="TextAppearance.Material3.LabelMedium">
+        <item name="android:textSize">13sp</item>
+        <item name="android:lineSpacingExtra">3sp</item>
+    </style>
+
+    <style name="GenZapp.Text.LabelSmall" parent="TextAppearance.Material3.LabelSmall">
+        <item name="android:lineSpacingExtra">4sp</item>
+    </style>
+
+    <!-- endregion -->
+
+    <!-- region Material2 and Older -->
+
+    <style name="GenZapp.Text.Headline" parent="Base.TextAppearance.AppCompat.Headline">
+        <item name="android:textSize">28sp</item>
+        <item name="android:lineSpacingExtra">3sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:letterSpacing" tools:ignore="NewApi">0</item>
+    </style>
+
+    <style name="GenZapp.Text.Headline.Medium">
+        <item name="android:lineSpacingExtra">5sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="GenZapp.Text.Body" parent="Base.TextAppearance.AppCompat.Body1">
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineSpacingExtra">2sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:letterSpacing" tools:ignore="NewApi">0.01</item>
+    </style>
+
+    <style name="GenZapp.Text.Preview" parent="Base.TextAppearance.AppCompat.Body2">
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">3sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:letterSpacing" tools:ignore="NewApi">0.01</item>
+    </style>
+
+    <style name="GenZapp.Text.Preview.Secondary">
+        <item name="android:textColor">@color/GenZapp_text_secondary</item>
+    </style>
+
+    <style name="GenZapp.Text.Caption" parent="Base.TextAppearance.AppCompat.Caption">
+        <item name="android:textSize">12sp</item>
+        <item name="android:lineSpacingExtra">2sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:letterSpacing" tools:ignore="NewApi">0.03</item>
+    </style>
+
+    <style name="GenZapp.Text.Caption.MessageSent">
+        <item name="android:textColor">@color/GenZapp_text_secondary</item>
+        <item name="android:shadowRadius">0</item>
+    </style>
+
+    <style name="GenZapp.Text.Giant" parent="@style/TextAppearance.AppCompat.Display1">
+        <item name="android:textSize">48sp</item>
+        <item name="android:textColor">@color/GenZapp_text_primary</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="TextAppearance.GenZapp.Title1" parent="@style/TextAppearance.AppCompat.Title">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">28sp</item>
+        <item name="android:color">@color/GenZapp_text_primary</item>
+    </style>
+
+    <style name="TextAppearance.GenZapp.Title2" parent="@style/TextAppearance.AppCompat.Title" />
+
+    <style name="TextAppearance.GenZapp.Title2.Bold">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextAppearance.GenZapp.Title2.MaterialDialog">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="TextAppearance.GenZapp.Title.InfoCard" parent="">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="TextAppearance.GenZapp.Body1" parent="@style/TextAppearance.AppCompat.Body1">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="TextAppearance.GenZapp.Body2" parent="@style/TextAppearance.AppCompat.Body2">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="fontFamily">sans-serif</item>
+    </style>
+
+    <style name="TextAppearance.GenZapp.Body2.Bold">
+        <item name="fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="TextAppearance.GenZapp.Body1.Bold">
+        <item name="fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="TextAppearance.GenZapp.Mono" parent="@style/TextAppearance.AppCompat.Caption">
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">monospace</item>
+    </style>
+
+    <style name="TextAppearance.GenZapp.Caption" parent="@style/TextAppearance.AppCompat.Caption">
+    </style>
+
+    <style name="TextAppearance.GenZapp.Subtitle" parent="TextAppearance.GenZapp.Caption">
+        <item name="android:textSize">13sp</item>
+    </style>
+
+    <style name="TextAppearance.GenZapp.Subtitle.Bold">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextAppearance.GenZapp.Subtitle2" parent="@style/TextAppearance.MaterialComponents.Subtitle2">
+    </style>
+
+    <style name="GenZapp.Text.MessageRequest.Title" parent="Base.TextAppearance.AppCompat.Title">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/GenZapp_text_primary</item>
+    </style>
+
+    <style name="GenZapp.Text.MessageRequest.Subtitle" parent="Base.TextAppearance.AppCompat.Caption">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/GenZapp_text_secondary</item>
+    </style>
+
+    <style name="GenZapp.Text.MessageRequest.Description" parent="Base.TextAppearance.AppCompat.Subhead">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/GenZapp_text_secondary</item>
+    </style>
+
+    <style name="GenZapp.Text.Title" parent="Base.TextAppearance.AppCompat.Title">
+    </style>
+
+    <style name="GenZapp.Text.Title.Large">
+        <item name="android:textSize">22sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <!-- endregion -->
+
+</resources>

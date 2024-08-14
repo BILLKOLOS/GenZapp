@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_story_settings"
+    app:startDestination="@id/myStorySettings">
+    <fragment
+        android:id="@+id/allExceptFragment"
+        android:name="org.thoughtcrime.securesms.stories.settings.privacy.AllExceptFragment"
+        android:label="hide_story_from_fragment" />
+    <fragment
+        android:id="@+id/onlyShareWithFragment"
+        android:name="org.thoughtcrime.securesms.stories.settings.privacy.OnlyShareWithFragment"
+        android:label="hide_story_from_fragment" />
+    <fragment
+        android:id="@+id/myStorySettings"
+        android:name="org.thoughtcrime.securesms.stories.settings.my.MyStorySettingsFragment"
+        android:label="my_story_settings_fragment">
+        <action
+            android:id="@+id/action_myStorySettings_to_GenZappConnectionsBottomSheet"
+            app:destination="@id/GenZappConnectionsBottomSheet" />
+        <action
+            android:id="@+id/action_myStorySettings_to_allExceptFragment"
+            app:destination="@id/allExceptFragment" />
+        <action
+            android:id="@+id/action_myStorySettings_to_onlyShareWithFragment"
+            app:destination="@id/onlyShareWithFragment" />
+    </fragment>
+    <dialog
+        android:id="@+id/GenZappConnectionsBottomSheet"
+        android:name="org.thoughtcrime.securesms.stories.settings.my.GenZappConnectionsBottomSheetDialogFragment"
+        android:label="GenZapp_connections_bottom_sheet"
+        tools:layout="@layout/stories_GenZapp_connection_bottom_sheet" />
+</navigation>

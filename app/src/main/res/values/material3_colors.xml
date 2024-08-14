@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Core colors for Material3 -->
+    <color name="GenZapp_colorPrimary">@color/GenZapp_light_colorPrimary</color>
+    <color name="GenZapp_colorPrimaryContainer">@color/GenZapp_light_colorPrimaryContainer</color>
+    <color name="GenZapp_colorSecondary">@color/GenZapp_light_colorSecondary</color>
+    <color name="GenZapp_colorSecondaryContainer">@color/GenZapp_light_colorSecondaryContainer</color>
+    <color name="GenZapp_colorSurface">@color/GenZapp_light_colorSurface</color>
+    <color name="GenZapp_colorSurfaceVariant">@color/GenZapp_light_colorSurfaceVariant</color>
+    <color name="GenZapp_colorBackground">@color/GenZapp_light_colorBackground</color>
+    <color name="GenZapp_colorError">@color/GenZapp_light_colorError</color>
+    <color name="GenZapp_colorErrorContainer">@color/GenZapp_light_colorErrorContainer</color>
+    <color name="GenZapp_colorOnPrimary">@color/GenZapp_light_colorOnPrimary</color>
+    <color name="GenZapp_colorOnPrimaryContainer">@color/GenZapp_light_colorOnPrimaryContainer</color>
+    <color name="GenZapp_colorOnSecondary">@color/GenZapp_light_colorOnSecondary</color>
+    <color name="GenZapp_colorOnSecondaryContainer">@color/GenZapp_light_colorOnSecondaryContainer</color>
+    <color name="GenZapp_colorOnSurface">@color/GenZapp_light_colorOnSurface</color>
+    <color name="GenZapp_colorOnSurfaceVariant">@color/GenZapp_light_colorOnSurfaceVariant</color>
+    <color name="GenZapp_colorOnSurfaceVariant1">@color/GenZapp_light_colorOnSurfaceVariant1</color>
+    <color name="GenZapp_colorOnBackground">@color/GenZapp_light_colorOnBackground</color>
+    <color name="GenZapp_colorOutline">@color/GenZapp_light_colorOutline</color>
+    <color name="GenZapp_neutralSurface">@color/GenZapp_light_neutralSurface</color>
+    <color name="GenZapp_colorOnCustom">@color/GenZapp_light_colorOnCustom</color>
+    <color name="GenZapp_colorOnCustomVariant">@color/GenZapp_light_colorOnCustomVariant</color>
+
+    <color name="GenZapp_colorSurface1">@color/GenZapp_light_colorSurface1</color>
+    <color name="GenZapp_colorSurface2">@color/GenZapp_light_colorSurface2</color>
+    <color name="GenZapp_colorSurface3">@color/GenZapp_light_colorSurface3</color>
+    <color name="GenZapp_colorSurface4">@color/GenZapp_light_colorSurface4</color>
+    <color name="GenZapp_colorSurface5">@color/GenZapp_light_colorSurface5</color>
+    
+    <color name="GenZapp_colorTransparent1">@color/GenZapp_light_colorTransparent1</color>
+    <color name="GenZapp_colorTransparent2">@color/GenZapp_light_colorTransparent2</color>
+    <color name="GenZapp_colorTransparent3">@color/GenZapp_light_colorTransparent3</color>
+    <color name="GenZapp_colorTransparent4">@color/GenZapp_light_colorTransparent4</color>
+    <color name="GenZapp_colorTransparent5">@color/GenZapp_light_colorTransparent5</color>
+    <color name="GenZapp_colorNeutral">@color/GenZapp_light_colorNeutral</color>
+    <color name="GenZapp_colorNeutralVariant">@color/GenZapp_light_colorNeutralVariant</color>
+    <color name="GenZapp_colorTransparentInverse1">@color/GenZapp_light_colorTransparentInverse1</color>
+    <color name="GenZapp_colorTransparentInverse2">@color/GenZapp_light_colorTransparentInverse2</color>
+    <color name="GenZapp_colorTransparentInverse3">@color/GenZapp_light_colorTransparentInverse3</color>
+    <color name="GenZapp_colorTransparentInverse4">@color/GenZapp_light_colorTransparentInverse4</color>
+    <color name="GenZapp_colorTransparentInverse5">@color/GenZapp_light_colorTransparentInverse5</color>
+    <color name="GenZapp_colorNeutralInverse">@color/GenZapp_light_colorNeutralInverse</color>
+    <color name="GenZapp_colorNeutralVariantInverse">@color/GenZapp_light_colorNeutralVariantInverse</color>
+
+    <!-- Inverses -->
+    <color name="GenZapp_colorErrorInverse">@color/GenZapp_dark_colorError</color>
+    <color name="GenZapp_colorErrorContainerInverse">@color/GenZapp_dark_colorErrorContainer</color>
+
+    <!-- Core color alpha variants -->
+    <color name="GenZapp_colorSecondaryContainer_12">#1FDCE5F9</color>
+    <color name="GenZapp_colorSurface_60">#99FBFCFF</color>
+    <color name="GenZapp_colorSurfaceVariant_38">#61E7EBF3</color>
+    <color name="GenZapp_colorSurfaceVariant_64">#A3E7EBF3</color>
+    <color name="GenZapp_colorOnSurface_12">#1F1B1B1D</color>
+    <color name="GenZapp_colorOnSurface_50">#801B1B1D</color>
+    <color name="GenZapp_colorOnSurfaceVariant_60">#99545863</color>
+    <color name="GenZapp_colorOnBackground_60">#991B1D1D</color>
+    <color name="GenZapp_colorOutline_38">#61808389</color>
+    <color name="GenZapp_colorBackground_0">#00FBFCFF</color>
+
+    <!-- Core color alpha variants without alpha channel -->
+    <color name="GenZapp_colorSurfaceVariant_16_no_alpha">#D5D8DE</color>
+    <color name="GenZapp_colorSurfaceVariant_32_no_alpha">#B8BCC5</color>
+</resources>

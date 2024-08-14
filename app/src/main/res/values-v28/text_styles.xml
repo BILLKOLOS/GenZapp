@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="GenZapp.Text.HeadlineLarge" parent="TextAppearance.Material3.HeadlineLarge">
+        <item name="android:lineHeight">40sp</item>
+        <item name="android:letterSpacing">0</item>
+    </style>
+
+    <style name="GenZapp.Text.HeadlineMedium" parent="TextAppearance.Material3.HeadlineMedium">
+        <item name="android:lineHeight">36sp</item>
+        <item name="android:letterSpacing">0</item>
+    </style>
+
+    <style name="GenZapp.Text.TitleLarge" parent="TextAppearance.Material3.TitleLarge">
+        <item name="android:lineHeight">28sp</item>
+        <item name="android:letterSpacing">0</item>
+    </style>
+
+    <style name="GenZapp.Text.TitleMedium" parent="TextAppearance.Material3.TitleMedium">
+        <item name="fontFamily">sans-serif</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:lineHeight">24sp</item>
+        <item name="android:letterSpacing">0.0125</item>
+    </style>
+
+    <style name="GenZapp.Text.TitleSmall" parent="TextAppearance.Material3.TitleSmall">
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineHeight">22sp</item>
+        <item name="android:letterSpacing">0.0125</item>
+    </style>
+
+    <style name="GenZapp.Text.BodyLarge" parent="TextAppearance.Material3.BodyLarge">
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:lineHeight">22sp</item>
+        <item name="android:letterSpacing">0.0125</item>
+    </style>
+
+    <style name="GenZapp.Text.BodyMedium" parent="TextAppearance.Material3.BodyMedium">
+        <item name="android:lineHeight">20sp</item>
+        <item name="android:letterSpacing">0.0107</item>
+    </style>
+
+    <style name="GenZapp.Text.BodySmall" parent="TextAppearance.Material3.BodySmall">
+        <item name="android:textSize">13sp</item>
+        <item name="android:lineHeight">16sp</item>
+        <item name="android:letterSpacing">0.0192</item>
+    </style>
+
+    <style name="GenZapp.Text.MaterialCaption" parent="GenZapp.Text.BodySmall">
+        <item name="android:textSize">12sp</item>
+        <item name="android:lineHeight">16sp</item>
+        <item name="android:letterSpacing">0.025</item>
+    </style>
+
+    <style name="GenZapp.Text.LabelLarge" parent="TextAppearance.Material3.LabelLarge">
+        <item name="android:lineHeight">20sp</item>
+        <item name="android:letterSpacing">0.0107</item>
+    </style>
+
+    <style name="GenZapp.Text.LabelMedium" parent="TextAppearance.Material3.LabelMedium">
+        <item name="android:textSize">13sp</item>
+        <item name="android:lineHeight">16sp</item>
+        <item name="android:letterSpacing">0.0192</item>
+    </style>
+
+    <style name="GenZapp.Text.LabelSmall" parent="TextAppearance.Material3.LabelSmall">
+        <item name="android:lineHeight">16sp</item>
+        <item name="android:letterSpacing">0.025</item>
+    </style>
+</resources>

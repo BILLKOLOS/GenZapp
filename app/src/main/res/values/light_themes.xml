@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="GenZapp.DayNight" parent="TextSecure.LightTheme" />
+
+    <style name="GenZapp.DayNight.NoActionBar" parent="TextSecure.LightNoActionBar" />
+
+    <style name="GenZapp.DayNight.Invite" parent="GenZapp.Light.NoActionBar.Invite" />
+
+    <style name="GenZapp.DayNight.IntroTheme" parent="TextSecure.LightIntroTheme" />
+
+    <style name="GenZapp.DayNight.DarkActionBar" parent="TextSecure.LightTheme.Conversation" />
+
+    <style name="GenZapp.DayNight.DarkNoActionBar" parent="TextSecure.LightNoActionBar.DarkToolbar" />
+
+    <style name="GenZapp.DayNight.Registration" parent="TextSecure.LightRegistrationTheme" />
+
+    <style name="GenZapp.DayNight.WallpaperCropper" parent="Theme.GenZapp.WallpaperCropper.Light" />
+
+    <style name="GenZapp.DayNight.BottomSheet.Rounded" parent="Theme.GenZapp.RoundedBottomSheet.Light" />
+
+    <style name="GenZapp.DayNight.ConversationSettings" parent="TextSecure.LightNoActionBar.ConversationSettings" />
+</resources>

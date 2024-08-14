@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="GenZapp.DayNight.Popup" parent="@style/ThemeOverlay.AppCompat.Dark" />
+
+    <style name="GenZapp.DayNight.Toolbar.Overflow" parent="@style/GenZapp.Toolbar.Overflow" />
+</resources>
